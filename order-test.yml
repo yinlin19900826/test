@@ -13,5 +13,5 @@ eureka:
 env:
   test
 girl:
-  name: yinlin
-  age: 19
+  name: yinlin1234
+  age: 28
