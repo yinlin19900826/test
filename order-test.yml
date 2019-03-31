@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: yinlin251314
+    url: jdbc:mysql://localhost/mysql?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+env:
+  test
+girl:
+  name: lucy
+  age: 18
